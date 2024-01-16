@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(90deg, #0400ff 0%, #0a0a0a 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {   
+    color: aquamarine;
+    padding: 10px;
+}
+
+.side-bar {
+    background: linear-gradient(270deg, #0400ff 0%, #0a0a0a 100%); 
+}
+
+footer {
+    background: linear-gradient(270deg, #0400ff 0%, #0a0a0a 100%); 
+}
+
+.footer-text {
+    margin: auto auto;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(130, 126, 126);
+}
+
+.navbar-toggler {
+    background-color: rgb(109, 105, 105);
+}
+
+.block-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    background: linear-gradient(270deg, #0400ff 0%, rgb(6, 6, 134) 100%);
+    color: aquamarine;
+}
+
+.index-card {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.call-anim {
+    animation: clientCall 2s ease 0s 2 normal forwards;
+}
+
+@keyframes clientCall {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(109, 105, 105);
+    border-bottom: 0;
+}
+
+.btn-primary {
+    --bs-btn-bg: 0;
+    border: 0;
+}
+
+.dropdown-menu.show {
+    background: linear-gradient(270deg, #0400ff 0%, rgb(6, 6, 134) 100%);
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: none;
+}
+
+
+
