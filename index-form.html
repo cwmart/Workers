@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, course, css, tags" />
+    <meta name="description" content="Это базовый курс по html" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./source/styles/style.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <h1>Retrieve Form Data</h1>
+
+    <form action="/" method="post" id="form">
+      <div>
+        <label>
+          Name:
+          <input id="name" type="text" name="names" value="Iurie">
+        </label>
+      </div>
+      <div>
+        <label>
+          Age:
+          <input id="age" type="number" name="age" value="59">
+        </label>
+      </div>
+      <div>
+        <label>
+          Confirm terms of service:
+          <input id="terms" type="checkbox" name="terms" checked>
+        </label>
+      </div>
+      <div>
+        Plan
+        <select id="plan" name="plan">
+          <option value="free" selected>free</option>
+          <option value="simple">simple</option>
+          <option value="pro">pro</option>
+        </select>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+
+    
+
+ 
+    <script src="./test.js"></script> 
+
+  </body>
+</html>
